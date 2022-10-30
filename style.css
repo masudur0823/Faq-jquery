@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
+body{
+    background: #F3F4F6;
+    font-family: 'Lato', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+}
+p{
+    color: grey;
+}
+
+.container{
+    width: 60%;
+    margin: 0 auto;
+}
+
+details{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    background: #fff;
+    margin-top: 15px;
+}
+
+details p{
+    padding: 15px;
+    padding-top: 0px;
+}
+summary{
+    cursor: pointer;
+    color: #3B82F6;
+    font-weight: bold;
+    padding: 15px;
+}
+
+.clear-both{
+    clear: both;
+}
+
+.faq{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    background: #fff;
+    margin-top: 15px;
+}
+
+.icon{
+    float: right;
+}
+
+.faq h4{
+    cursor: pointer;
+    color: #3B82F6;
+    float: left;
+}
+
+.testP{
+    display: none;
+    padding: 15px;
+    padding-top: 0px;
+}
+
+.faq-header{
+    padding: 15px;
+    cursor: pointer;
+}
+
+.icon-minus{
+    display: none;
+    float: right;
+}
